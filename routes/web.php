@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+    //Route::get('/', 'BookController@index'); -- doesn't work
+    Route::get('/', 'App\Http\Controllers\BookController@index');
 
-Route::get('/', function () {
-    return view('welcome');
-});

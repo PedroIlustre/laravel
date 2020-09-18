@@ -12,9 +12,6 @@ class BookController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function __invoke(){
-         self::index();
-     }
 
     public function index()
     {

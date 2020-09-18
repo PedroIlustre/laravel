@@ -1,5 +1,5 @@
 @extends('template/template')
 
 @section('content')
-    Qualquer coisa
+    CRUD
 @endsection()

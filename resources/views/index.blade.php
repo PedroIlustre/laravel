@@ -1,5 +1,5 @@
 @extends('template/template')
 
 @section('content')
-    CRUD
+<h1 class='text-center'> Crud </h1>
 @endsection()
